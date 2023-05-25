@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>SoundSensei</title>
+  </head>
+  <body
+    class="bg-image"
+    style="background-image: url('assets/images/japan.png')"
+  >
+    <div class="sidenav">
+      <a href="#" class="sidebar-btn">
+        <img src="assets/images/home.png" alt="Home" />
+        <span>Home</span>
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+        class="sidebar-btn"
+      >
+        <img src="assets/images/youtube.png" alt="YouTube" />
+        <span>YouTube</span>
+      </a>
+      <h1>Favorites</h1>
+      <div class="artist-buttons"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <div class="box" id="box">
+        <h2>Welcome to SongSensei</h2>
+        <p>Keep up with your favorite artists!</p>
+      </div>
+      <div class="box">
+        <h2>Featured Artists</h2>
+        <div class="tiles">
+          <!-- Tile 1 -->
+          <div class="tile">
+            <p>Beyoncé</p>
+          </div>
+          <!-- Tile 2 -->
+          <div class="tile">
+            <p>Taylor Swift</p>
+          </div>
+          <!-- Tile 3 -->
+          <div class="tile">
+            <p>The Weeknd</p>
+          </div>
+          <!--Tile 4 -->
+          <div class="tile">
+            <p>Ariana Grande</p>
+          </div>
+          <!--Tile 5 -->
+          <div class="tile">
+            <p>Ed Sheeran</p>
+          </div>
+          <!--Tile 6 -->
+          <div class="tile">
+            <p>Justin Bieber</p>
+          </div>
+          <!--Tile 7 -->
+          <div class="tile">
+            <p>Bad Bunny</p>
+          </div>
+          <!--Tile 8 -->
+          <div class="tile">
+            <p>Post Malone</p>
+          </div>
+          <!--Tile 9 -->
+          <div class="tile">
+            <p>Adele</p>
+          </div>
+          <!--Tile 10 -->
+          <div class="tile">
+            <p>Rihanna</p>
+          </div>
+          <!--Tile 11 -->
+          <div class="tile">
+            <p>Bruno Mars</p>
+          </div>
+          <!--Tile 12 -->
+          <div class="tile">
+            <p>Billie Eilish</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- youtube -->
+    <script src="assets/js/youtube.js"></script>
+    <!-- wiki -->
+    <script src="assets/js/wiki.js"></script>
+  </body>
+</html>
